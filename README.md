@@ -1,28 +1,40 @@
-# 🏦 FinBank — Protótipo Acadêmico
+# 🏦 Caixa SENAI (FinUp Bank) — Sistema de Créditos Pedagógicos
 
-![Node.js Version](https://img.shields.io/badge/Node.js-%3E%3D22.13.0-brightgreen)
-![Framework](https://img.shields.io/badge/Framework-Next.js%20%2F%20Vite-blue)
-![License](https://img.shields.io/badge/Status-Demonstra%C3%A7%C3%A3o%20Acad%C3%AAmica-orange)
+[![Node.js Version](https://img.shields.io/badge/Node.js-%3E%3D%2018.0-brightgreen)]()
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)]()
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-Acad%C3%AAmica-blue)]()
 
-Painel demonstrativo responsivo desenvolvido para apresentar uma experiência bancária focada em **acessibilidade** e uma fronteira de integração documentada para o **Banco do Brasil**.
+**Plataforma web institucional concebida e desenvolvida pela CredBox Soluções Digitais para Educação.** 
 
-> ⚠️ **Aviso Importante: Não é um aplicativo bancário real.**  
-> Saldos, contas e movimentações são estritamente fictícios; não há acesso a contas, transferências, cobranças Pix ou pagamentos reais.
+Este projeto foi desenvolvido como Trabalho de Conclusão de Curso (TCC) para o SENAI - Unidade Roberto Simonsen (São Paulo, 2026). O objetivo é organizar a colaboração entre diferentes grupos de TCC, substituindo acordos verbais informais por um processo institucional rastreável através de contratos digitais.
+
+> ⚠️ **Aviso Importante - Regra de Negócio Pedagógica:**
+> Os créditos geridos nesta plataforma são **exclusivamente pedagógicos**. Eles não representam dinheiro real, não possuem valor financeiro, não podem ser sacados, comprados ou convertidos em moeda (ex: Pix, TED ou pagamentos reais). A aplicação é um ambiente fechado para fins educacionais.
 
 ---
 
-## ⚡ Executar o Projeto
+## ✨ Principais Funcionalidades e Módulos
+
+- 👤 **Perfis de Acesso:** Áreas exclusivas e permissões segmentadas para Alunos, Professores Mediadores, ADM (Gestão Institucional) e Desenvolvedores.
+- 💼 **Carteira Pedagógica:** Controle em tempo real do Saldo Disponível, Saldo Reservado (em contratos ativos) e Extrato detalhado de transações.
+- 🤝 **Serviços e Contratos Digitais:** Publicação de solicitações, negociação via chat, formalização de escopo/prazos e aprovação de entregas.
+- 🤖 **Caixa IA & Chat Integrado:** Assistente virtual orientativo para tirar dúvidas sobre a plataforma e chat dedicado para negociação entre turmas.
+- ♿ **Acessibilidade Inclusiva (WCAG 2.2 AA):** Suporte nativo a Alto Contraste, Leitura em voz alta, navegação por teclado, modo escuro e assistente em Libras.
+- 🏆 **Gamificação Educacional:** Trilhas de aprendizado, Quizzes, acúmulo de pontos (XP) e conquistas para engajar os alunos no gerenciamento de projetos.
+
+---
+
+## ⚡ Executar o Projeto Localmente (Manual de Replicação)
 
 ### Pré-requisitos
-* **Node.js:** `>=22.13.0`
-* **npm** instalado
+Certifique-se de ter os seguintes itens instalados no seu ambiente de desenvolvimento:
+* **Node.js** (v18 LTS ou superior) e **npm**
+* **Git** para controle de versão
+* **Banco de Dados Relacional** (PostgreSQL ou MySQL)
 
-### Passo a Passo
-Instale as dependências já registradas no `package-lock.json` e execute os scripts do projeto:
+### Passo a Passo da Instalação
 
+**1. Clone o repositório:**
 ```bash
-# Instalar dependências
-npm ci
-
-# Iniciar ambiente de desenvolvimento
-npm run dev
+git clone [https://github.com/seu-usuario/caixa-senai.git](https://github.com/seu-usuario/caixa-senai.git)
+cd caixa-senai
